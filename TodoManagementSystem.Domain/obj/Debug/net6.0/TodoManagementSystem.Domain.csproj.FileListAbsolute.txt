@@ -1,0 +1,12 @@
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\bin\Debug\net6.0\TodoManagementSystem.Domain.deps.json
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\bin\Debug\net6.0\TodoManagementSystem.Domain.dll
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\bin\Debug\net6.0\TodoManagementSystem.Domain.pdb
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\TodoManagementSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\TodoManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\TodoManagementSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\TodoManagementSystem.Domain.AssemblyInfo.cs
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\TodoManagementSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\TodoManagementSystem.Domain.dll
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\refint\TodoManagementSystem.Domain.dll
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\TodoManagementSystem.Domain.pdb
+C:\Users\bloomoon\source\repos\DDD\TodoManagementSystem\TodoManagementSystem.Domain\obj\Debug\net6.0\ref\TodoManagementSystem.Domain.dll

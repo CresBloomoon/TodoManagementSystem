@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HbnmC/TTXfscFB3mar0XwUvAt8tjVr/rAZYFGvF7CJbLmxNyJQYbXsUsWRiil32voOWdezFuuDYs9UyjofQU5A==",
+  "dgSpecHash": "YtTIBvIr76cSeV5jYpSMpo3Iv5EZQo0hLYafYv7702tSUagtNaWLQZCyapJEVGZiseD65DuMC9tdniZISa0f4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj",
+  "projectFilePath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

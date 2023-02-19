@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj": {}
+    "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj": {
+    "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj",
         "projectName": "TodoManagementSystem.Domain",
-        "projectPath": "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj",
+        "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\bloomoon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystem.Domain\\obj\\",
+        "outputPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bloomoon\\AppData\\Roaming\\NuGet\\NuGet.Config",

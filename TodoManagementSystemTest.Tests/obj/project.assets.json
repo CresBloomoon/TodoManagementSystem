@@ -3947,11 +3947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystemTest.Tests\\TodoManagementSystemTest.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystemTest.Tests\\TodoManagementSystemTest.Tests.csproj",
       "projectName": "TodoManagementSystemTest.Tests",
-      "projectPath": "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystemTest.Tests\\TodoManagementSystemTest.Tests.csproj",
+      "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystemTest.Tests\\TodoManagementSystemTest.Tests.csproj",
       "packagesPath": "C:\\Users\\bloomoon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystemTest.Tests\\obj\\",
+      "outputPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystemTest.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bloomoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3968,8 +3968,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\bloomoon\\source\\repos\\DDD\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj"
+            "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj"
             }
           }
         }

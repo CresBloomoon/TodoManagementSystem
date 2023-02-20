@@ -59,6 +59,129 @@
         }
       }
     },
+    "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Infrastructure\\TodoManagementSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Infrastructure\\TodoManagementSystem.Infrastructure.csproj",
+        "projectName": "TodoManagementSystem.Infrastructure",
+        "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Infrastructure\\TodoManagementSystem.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\bloomoon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bloomoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj"
+              },
+              "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.UseCase\\TodoManagementSystem.UseCase.csproj": {
+                "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.UseCase\\TodoManagementSystem.UseCase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.UseCase\\TodoManagementSystem.UseCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.UseCase\\TodoManagementSystem.UseCase.csproj",
+        "projectName": "TodoManagementSystem.UseCase",
+        "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.UseCase\\TodoManagementSystem.UseCase.csproj",
+        "packagesPath": "C:\\Users\\bloomoon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.UseCase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bloomoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystemTest.Tests\\TodoManagementSystemTest.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -85,6 +208,12 @@
             "projectReferences": {
               "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj": {
                 "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Domain\\TodoManagementSystem.Domain.csproj"
+              },
+              "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Infrastructure\\TodoManagementSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.Infrastructure\\TodoManagementSystem.Infrastructure.csproj"
+              },
+              "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.UseCase\\TodoManagementSystem.UseCase.csproj": {
+                "projectPath": "C:\\Users\\bloomoon\\source\\repos\\TodoManagementSystem\\TodoManagementSystem.UseCase\\TodoManagementSystem.UseCase.csproj"
               }
             }
           }
@@ -99,6 +228,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"

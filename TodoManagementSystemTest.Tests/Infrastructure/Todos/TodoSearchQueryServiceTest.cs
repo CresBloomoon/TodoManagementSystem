@@ -1,0 +1,80 @@
+﻿using TodoManagementSystem.Domain.Models.Todos;
+using TodoManagementSystem.Infrastructure.Todos;
+using TodoManagementSystem.UseCase.Shared;
+using TodoManagementSystem.UseCase.Todos.Search;
+using TodoManagementSystemTest.Tests.Helpers;
+using TodoManagementSystemTest.Tests.Shared;
+using NUnit.Framework;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace TodoManagementSystemTest.Tests.Infrastructure.Todos
+{
+    public class TodoSearchQueryServiceTest : UseDbContextTestBase
+    {
+        private readonly ITodoSearchQueryService _todoSearchQueryService;
+        private readonly ITodoRepository _todoRepository;
+
+        public TodoSearchQueryServiceTest()
+        {
+            _todoSearchQueryService = new TodoSearchQueryService(TestDbContext);
+            _todoRepository = new TodoRepository(TestDbContext);
+        }
+
+        [TestCase("keyword", new[] { (int)TodoStatus.InCompleted }, ExpectedResult = new object[] { 1, true }, TestName = "キーワードとステータスを指定すると削除済み以外ですべての条件を満たすTODOが返される")]
+        [TestCase(null, new[] { (int)TodoStatus.InCompleted }, ExpectedResult = new object[] { 2, false }, TestName = "ステータスのみ指定すると削除済み以外で同じステータスのTODOが返される")]
+        [TestCase("keyword", null, ExpectedResult = new object[] { 2, true }, TestName = "キーワードのみ指定すると削除済み以外でタイトルまたは詳細にキーワードを含むTODOが返される")]
+        [TestCase(null, null, ExpectedResult = new object[] { 4, false }, TestName = "キーワード、ステータス指定なしだと削除済み以外のすべてのTODOが返される")]
+        public async Task<object[]> 条件を満たすTODOが返される(string keyword, int[]? statuses)
+        {
+            // 準備
+            var userId = Guid.NewGuid().ToString("D");
+            var todos = new[]
+            {
+                TodoGenerator.Generate(
+                    ownerId: userId),
+                TodoGenerator.Generate(
+                    ownerId: userId,
+                    status: TodoStatus.Completed),
+                TodoGenerator.Generate(
+                    title: "keyword",
+                    ownerId: userId),
+                TodoGenerator.Generate(
+                    description: "keyword",
+                    ownerId: userId,
+                    status: TodoStatus.Completed),
+                // 削除済みTODO
+                TodoGenerator.Generate(
+                    ownerId: userId,
+                    isDeleted: true,
+                    deletedDateTime: DateTime.Now)
+            };
+
+            foreach (var todo in todos)
+            {
+                await _todoRepository.SaveAsync(todo);
+            }
+
+            // 実行
+            var command = new TodoSearchCommand(
+                userSession: new UserSession(userId),
+                keyword: keyword,
+                statuses: statuses);
+            var result = await _todoSearchQueryService.ExecuteAsync(command);
+
+            // 検証
+            var hasKeyword = !string.IsNullOrWhiteSpace(keyword) &&
+                             result.Summaries
+                                 .Join(todos,
+                                     x => x.Id, y => y.Id.Value,
+                                    (x, y) => new { Title = y.Title.Value, Description = y.Description?.Value ?? "" })
+                                .Any(x =>
+                                    string.IsNullOrWhiteSpace(keyword) ||
+                                    x.Title.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
+                                    x.Description.Contains(keyword, StringComparison.OrdinalIgnoreCase));
+
+            return new object[] { result.Total, hasKeyword };
+        }
+    }
+}

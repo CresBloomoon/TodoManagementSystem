@@ -798,6 +798,9 @@
         }
       },
       "TodoManagementSystem.UseCase/1.0.0": {
+        "dependencies": {
+          "TodoManagementSystem.Domain": "1.0.0"
+        },
         "runtime": {
           "TodoManagementSystem.UseCase.dll": {}
         }

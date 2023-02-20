@@ -1233,6 +1233,9 @@
       "TodoManagementSystem.UseCase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TodoManagementSystem.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TodoManagementSystem.UseCase.dll": {}
         },

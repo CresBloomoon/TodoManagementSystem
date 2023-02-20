@@ -25,8 +25,4 @@
     <ProjectReference Include="..\TodoManagementSystem.UseCase\TodoManagementSystem.UseCase.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UseCase\" />
-  </ItemGroup>
-
 </Project>

@@ -8,7 +8,7 @@ using TodoManagementSystem.Domain.Models.Todos;
 using TodoManagementSystem.Domain.Models.Users;
 using TodoManagementSystemTest.Tests.Helpers;
 
-namespace TodoManagementSystemTest.Tests
+namespace TodoManagementSystemTest.Tests.Domain.Models.Todos
 {
     public class TodoTest
     {
@@ -159,10 +159,6 @@ namespace TodoManagementSystemTest.Tests
             Assert.That(
                 () => todo.Edit(newTitle, newDescription),
                 Throws.TypeOf<DomainException>());
-
-
         }
-
-
     }
 }

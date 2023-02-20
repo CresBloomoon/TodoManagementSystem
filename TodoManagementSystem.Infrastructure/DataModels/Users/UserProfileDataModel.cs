@@ -15,6 +15,6 @@ namespace TodoManagementSystem.Infrastructure.DataModels.Users
 
         [Required]
         [StringLength(maximumLength: UserNickname.MaxNicknameLength)]
-        public string NickName { get; set; }
+        public string Nickname { get; set; }
     }
 }

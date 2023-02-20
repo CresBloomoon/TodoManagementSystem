@@ -1,13 +1,17 @@
-using NuGet.Frameworks;
+ï»¿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using TodoManagementSystem.Domain.Models.Shared;
 using TodoManagementSystem.Domain.Models.Todos;
 
-namespace TodoManagementSystemTest.Tests
+namespace TodoManagementSystemTest.Tests.Domain.Models.Todos
 {
-    public class Tests
+    internal class TodoTitleTest
     {
         [Test]
-        public void ˆø”‚É50•¶šˆÈ‰º‚Ì•¶š—ñ‚ğ“n‚·‚ÆƒCƒ“ƒXƒ^ƒ“ƒX‚ª¶¬‚³‚ê‚é()
+        public void å¼•æ•°ã«50æ–‡å­—ä»¥ä¸‹ã®æ–‡å­—åˆ—ã‚’æ¸¡ã™ã¨ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ãŒç”Ÿæˆã•ã‚Œã‚‹()
         {
             //Arrange
             const string titleValue = "TodoTitle";
@@ -20,7 +24,7 @@ namespace TodoManagementSystemTest.Tests
         }
 
         [Test]
-        public void ˆø”‚É51•¶šˆÈã‚Ì•¶š—ñ‚ğ“n‚·‚Æ—áŠO‚ª”­¶‚·‚é()
+        public void å¼•æ•°ã«51æ–‡å­—ä»¥ä¸Šã®æ–‡å­—åˆ—ã‚’æ¸¡ã™ã¨ä¾‹å¤–ãŒç™ºç”Ÿã™ã‚‹()
         {
             //Arrange
             const string titleValue = "abcdefghijklmnopqrstuvwxyz1234567890123456789012345";
